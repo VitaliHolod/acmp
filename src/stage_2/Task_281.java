@@ -16,8 +16,9 @@ public class Task_281 {
 
         int n = sc.nextInt();
         int m = sc.nextInt();
+        final int SIZE = 21;
 
-        int arr[][] = new int[21][21];
+        int arr[][] = new int[SIZE][SIZE];
 
         for (int i = 0; i < n + 1; i++) {
             arr[i][0] = 1;
