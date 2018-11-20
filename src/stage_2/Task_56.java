@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Task_56 {
     public static void main(String[] argv) throws IOException {
-        new Task_120().run();
+        new Task_56().run();
     }
 
     void run() throws IOException {
