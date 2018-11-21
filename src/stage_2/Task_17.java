@@ -10,16 +10,19 @@ public class Task_17 {
 
     public static void main(String[] args) throws IOException {
 
+        new Task_17().run();
+    }
+
+    private static void run() throws FileNotFoundException {
         Scanner sc = new Scanner(new File("input.txt"));
-        
+
         int size = Integer.valueOf(sc.nextLine().trim());
 
         String initialData = sc.nextLine().trim();
-        System.out.println(initialData);
         int indexFirstSpace = initialData.indexOf(" ");
 
         String data = initialData.substring(0, initialData.length() - indexFirstSpace - 1);
-        
+
         StringBuilder sb = new StringBuilder();
         sb.append(data);
         sb.append(" ");
