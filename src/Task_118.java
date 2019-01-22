@@ -1,5 +1,3 @@
-package ru.acmp;
-
 import java.util.Scanner;
 
 public class Task_118 {
